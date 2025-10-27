@@ -20,3 +20,11 @@ interpolation refers to handling null or empty values by maintaing:
 print("Data after Interpolation: ")
 df['Age'] = df["Age"].interpolate(method="linear", axis = 0)
 print(df)
+
+
+'''
+WHEN TO USE INTERPOLATION: 
+> timer series data
+> numeric data with trends
+> avoid dropping rows
+'''
